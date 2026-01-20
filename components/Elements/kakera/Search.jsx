@@ -59,7 +59,7 @@ const SearchPost = () => {
                            group-hover:scale-[1.03]"
                 style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${post.bg})` }}
               >
-                <div className="absolute bottom-0 w-full bg-[#00000060] backdrop-blur-sm overflow-hidden transition-[max-height] duration-500 ease-out lg:max-h-18 group-hover:max-h-60 group-focus-within:max-h-96">
+                <div className="absolute bottom-0 w-full bg-[#00000060] backdrop-blur-sm overflow-hidden transition-[max-height] duration-500 ease-out max-h-18 group-hover:max-h-60 group-focus-within:max-h-96">
                   <div className="p-5">
                     <h3 className="text-[#ffffff] font-bold">{post.judul}</h3>
                     <div className="max-h-18">

@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
-
+import fb from "../../public/Img/Nav/fb.svg";
+import ig from "../../public/Img/Nav/ig.svg";
+import tk from "../../public/Img/Nav/tk.svg";
+import yt from "../../public/Img/Nav/yt.svg";
 const AkhirLanding = () => {
   return (
     <div className="relative">
@@ -26,16 +29,16 @@ const AkhirLanding = () => {
         <div className="flex justify-center py-2">
           <div className="flex gap-x-6">
             <a href="#" className="hover:text-[#ffffff]">
-              <img src="/Img/Nav/fb.svg" alt="" className="hover:invert-100" />
+              <img src={fb} alt="" className="hover:invert-100" />
             </a>
             <a href="#About" className="hover:text-[#ffffff]">
-              <img src="/Img/Nav/yt.svg" alt="" className="hover:invert-100" />
+              <img src={yt} alt="" className="hover:invert-100" />
             </a>
             <a href="#Post" className="hover:text-[#ffffff]">
-              <img src="/Img/Nav/ig.svg" alt="" className="hover:invert-100" />
+              <img src={ig} alt="" className="hover:invert-100" />
             </a>
             <a href="#Contact" className="hover:text-[#ffffff]">
-              <img src="/Img/Nav/tk.svg" alt="" className="hover:invert-100" />
+              <img src={tk} alt="" className="hover:invert-100" />
             </a>
           </div>
         </div>

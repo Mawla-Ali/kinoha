@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../../public/Img/Nav/logo-asli.png";
+import logo from "../../public/Img/Nav/Menu.png";
 
 const NavG = () => {
   const [open, setOpen] = useState(false);
