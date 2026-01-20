@@ -11,7 +11,7 @@ import Frieren from "./pages/frieren.jsx";
 import Fmba from "./pages/fmba.jsx";
 const router = createBrowserRouter([
   {
-    path: "/kinoha",
+    path: "/kinoha/",
     element: <LandingPage />,
     errorElement: <ErrorPage></ErrorPage>,
   },
