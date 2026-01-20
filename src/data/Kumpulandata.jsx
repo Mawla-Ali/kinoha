@@ -2,7 +2,7 @@ export const DataData = [
   {
     id: 1,
     link: "/kinoha/post/Jujutsu-kaisen#a",
-    bg: "/Img/About/Post/Jujutsus3.png",
+    bg: "Img/About/Post/Jujutsus3.png",
     sinopsis: "Idly indulging in baseless paranormal activities with the Occult Club, high schooler Yuuji Itadori....",
     judul: "[ANIME REVIEW] Jujutsu Kaisen ",
     juleng: "Jujutsu Kaisen Season 3",
@@ -14,7 +14,7 @@ export const DataData = [
   {
     id: 2,
     link: "/kinoha/post/Frieren#a",
-    bg: "/Img/About/Post/Frieren1.png",
+    bg: "Img/About/Post/Frieren1.png",
     sinopsis: "During their decade-long quest to defeat the Demon King, the members....",
     judul: "[ANIME REVIEW] Sousou no Frieren",
     rilis: "29 September 2023",
@@ -25,7 +25,7 @@ export const DataData = [
   {
     id: 3,
     link: "/kinoha/post/Re:zero#a",
-    bg: "/Img/About/Post/Rezero1.jpg",
+    bg: "Img/About/Post/Rezero1.jpg",
     sinopsis: "While returning home from the convenience store, Subaru Natsuki suddenly finds....",
     judul: "[ANIME REVIEW] Re: Zero Kara Hajimeru Isekai Seikatsu",
     juleng: "Re: Zero Kara Hajimeru Isekai Seikatsu",
@@ -36,7 +36,7 @@ export const DataData = [
   {
     id: 4,
     link: "/kinoha/post/Full-Metal#a",
-    bg: "/Img/About/Post/FMA1.png",
+    bg: "Img/About/Post/FMA1.png",
     sinopsis: "After a horrific alchemy experiment goes wrong in the Elric household...",
     judul: "[ANIME REVIEW] Full Metal Alchemist: Brotherhood",
     juleng: "Full Metal Alchemist: Brotherhood",
@@ -47,7 +47,7 @@ export const DataData = [
   {
     id: 5,
     link: "https://www.instagram.com/p/DSl8HMXj0lt/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-    bg: "/Img/About/InfoEvent/Event.png",
+    bg: "Img/About/InfoEvent/Event.png",
     sinopsis: "The Aloon-aloon Coswalk Competition 💫...",
     judul: "[Event]Coswalk Competition",
     juleng: "Coswal Competition",

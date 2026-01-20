@@ -38,7 +38,7 @@ const Tentang = () => {
                            bg-cover bg-center border border-[#7400F5]
                            transition-transform duration-300
                            group-hover:scale-[1.03]"
-                    style={{ backgroundImage: `url(${N.bg})` }}
+                    style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${N.bg})` }}
                   >
                     <div className="absolute bottom-0 w-full bg-[#00000060] backdrop-blur-sm overflow-hidden transition-[max-height] duration-500 ease-out lg:max-h-18 group-hover:max-h-60 group-focus-within:max-h-96">
                       <div className="p-5">
