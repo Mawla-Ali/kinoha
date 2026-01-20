@@ -76,7 +76,7 @@ const AutoSlider = () => {
                          rounded-3xl bg-cover bg-center
                          drop-shadow-xl border border-[#7400F5]"
                 style={{
-                  backgroundImage: `url({${import.meta.env.BASE_URL}${post.bg})`,
+                  backgroundImage: `url(${import.meta.env.BASE_URL}${post.bg})`,
                 }}
               >
                 {/* OVERLAY */}
