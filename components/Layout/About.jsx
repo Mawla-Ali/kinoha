@@ -40,10 +40,10 @@ const Tentang = () => {
                            group-hover:scale-[1.03]"
                     style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${N.bg})` }}
                   >
-                    <div className="absolute bottom-0 w-full bg-[#00000060] mt-12 backdrop-blur-sm overflow-hidden transition-[max-height] duration-500 ease-out max-h-18 group-hover:max-h-60 group-focus-within:max-h-96">
+                    <div className="absolute bottom-0 w-full bg-[#00000060] backdrop-blur-sm overflow-hidden transition-[max-height] duration-500 ease-out max-h-18 group-hover:max-h-60 group-focus-within:max-h-96">
                       <div className="p-5">
                         <h3 className="text-[#ffffff] font-bold">{N.judul}</h3>
-                        <p className="text-sm text-[#ffffff] mt-2">{N.sinopsis}</p>
+                        <p className="text-sm text-[#ffffff] mt-6">{N.sinopsis}</p>
                         <span
                           className="inline-block mt-3 text-xs px-3 py-1
                                      rounded-full bg-[#7400F5] text-[#ffffff]"
