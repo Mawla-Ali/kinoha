@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import logo from "../../public/Img/Nav/logo-asli.png";
 
 const NavGP = () => {
   const [open, setOpen] = useState(false);
@@ -8,7 +9,7 @@ const NavGP = () => {
     <>
       {/* TOMBOL */}
       <button onClick={() => setOpen(!open)} className=" -mt-1 block md:hidden right-0 z-50 fixed">
-        <img src="/Img/Nav/Menu.png" alt="" className="ml-10" />
+        <img src={logo} alt="" className="ml-10" />
       </button>
       {/* OVERLAY */}
       {open && <div onClick={() => setOpen(false)} className="fixed inset-0 bg-[#00000066] z-40" />}

@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
 import NavGP from "./NavHpP";
+import logo from "../../public/Img/Nav/logo-asli.png";
 const NavigationP = () => {
   return (
     <nav className="fixed top-0 z-50 bg-[#ffffff] w-full h-28 border-b-2 border-[#F500ED]">
       <div className="top-0 inline-flex min-w-[1540px] w-full">
-        <img src="/Img/Nav/logo-asli.png" alt="" className="md:pl-20 pl-5" />
+        <img src={logo} alt="" className="md:pl-20 pl-5" />
         <div className="flex justify-center md:w-full">
           <div className="flex items-center md:-ml-64 ">
             <h1 className="font-bold md:text-5xl text-xl">

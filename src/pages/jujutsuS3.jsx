@@ -21,7 +21,7 @@ const JujutsuS3 = () => {
             </p>
           </div>
           <div className="flex justify-center m-6">
-            <img src={`${import.meta.env.BASE_URL}{Gambar}`} alt="" className="rounded-4xl" />
+            <img src={`${import.meta.env.BASE_URL}${Gambar}`} alt="" className="rounded-4xl" />
           </div>
           <div className="mx-6 mb-6">
             <h3>Title : Jujutsu Kaisen Season 3</h3>
