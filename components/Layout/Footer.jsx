@@ -28,16 +28,19 @@ const AkhirLanding = () => {
         </div>
         <div className="flex justify-center py-2">
           <div className="flex gap-x-6">
-            <a href="#" className="hover:text-[#ffffff]">
+            <a href="https://www.facebook.com/profile.php?id=61550212737456&mibextid=ZbWKwL" className="hover:text-[#ffffff]">
               <img src={fb} alt="" className="hover:invert-100" />
             </a>
-            <a href="#About" className="hover:text-[#ffffff]">
+            <a href="https://www.youtube.com/@KinohaMagelang" className="hover:text-[#ffffff]">
               <img src={yt} alt="" className="hover:invert-100" />
             </a>
-            <a href="#Post" className="hover:text-[#ffffff]">
+            <a href="https://www.instagram.com/kinoha_magelang/" className="hover:text-[#ffffff]">
               <img src={ig} alt="" className="hover:invert-100" />
             </a>
-            <a href="#Contact" className="hover:text-[#ffffff]">
+            <a
+              href="https://www.tiktok.com/@kibonohana?_r=1&_d=e2jl25a2f4b8i9&sec_uid=MS4wLjABAAAAW2iRq-bxOi4a5CabgV-l6wDCAo_sopdZLuy7Bb5S76hR3BWzELP6pfK3gL2pTP07&share_author_id=6998917975398941697&sharer_language=id&source=h5_t&u_code=dk8ci9hd540ike&timestamp=1691932680&user_id=6998917975398941697&sec_user_id=MS4wLjABAAAAW2iRq-bxOi4a5CabgV-l6wDCAo_sopdZLuy7Bb5S76hR3BWzELP6pfK3gL2pTP07&utm_source=copy&utm_campaign=client_share&utm_medium=android&share_iid=7265888447327160069&share_link_id=f652fc1a-f41d-4446-b324-8242963800cf&share_app_id=1180&ugbiz_name=Account&ug_btm=b8727%2Cb0229&social_share_type=5"
+              className="hover:text-[#ffffff]"
+            >
               <img src={tk} alt="" className="hover:invert-100" />
             </a>
           </div>
@@ -45,7 +48,7 @@ const AkhirLanding = () => {
         <div className="flex justify-center text-[12px] pb-4">
           <p>
             © {new Date().getFullYear()}{" "}
-            <a href="https://mawla-ali.github.io/argonaut/" className="hover:invert">
+            <a href="https://mawla-ali.github.io/argonaut/" className="hover:text-[#ffffff]">
               Argonaut
             </a>
             . All rights reserved.
